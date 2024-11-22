@@ -9,6 +9,7 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+
 }
 
 .container {
@@ -39,6 +40,7 @@ body {
 .body-container-1 {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .sunrise-img {
@@ -103,6 +105,7 @@ body {
 
 .girl-img-container {
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .girl-img {
@@ -158,6 +161,7 @@ li:hover {
 
 .fourth-container {
     padding-top: 10px;
+    margin-bottom: 15px;
 }
 
 .fourth-container-sub {
@@ -221,6 +225,7 @@ li:hover {
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.789);
+    
 }
 
 .tag-text-container {
@@ -270,6 +275,7 @@ li:hover {
 footer {
     background-color: #616161;
     padding: 50px 20px;
+    margin-top: 50px;
 }
 
 .previous-btn {
@@ -304,4 +310,23 @@ footer {
 
 .power-text, .last-link {
     color: white;
+}
+
+
+@media screen and  (min-width: 1400px) {
+    .new-media-container {
+        display: flex;
+    }
+
+    #container {
+        flex: none;
+    }
+
+    .fourth-container {
+        margin-bottom: 50px;
+    }
+
+    .girl-img-container {
+        margin-bottom: 40px;
+    }
 }
