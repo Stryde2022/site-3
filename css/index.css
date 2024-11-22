@@ -318,10 +318,6 @@ footer {
         display: flex;
     }
 
-    #container {
-        flex: none;
-    }
-
     .fourth-container {
         margin-bottom: 50px;
     }
